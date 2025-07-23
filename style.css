@@ -1,0 +1,13 @@
+.img-fluid {
+    width: 200px;
+    height: 250px;
+    border-top: 50px;
+}
+
+.cards {
+    border-left: 50px;
+}
+
+.azul {
+    background: #07095e;
+}
