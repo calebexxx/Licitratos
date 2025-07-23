@@ -1,13 +1,49 @@
+.logo {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+
+nav {
+    background: #051B2B;
+}
+
+header {
+    background-image: url('assets/img/header.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
 .img-fluid {
     width: 200px;
     height: 250px;
     border-top: 50px;
 }
 
-.cards {
-    border-left: 50px;
+.cartoes {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border: 50px;
+}
+
+.card-equipe {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
 }
 
 .azul {
-    background: #07095e;
+    background: #051B2B;
+}
+
+header{
+    background-color: #051B2B;
 }
