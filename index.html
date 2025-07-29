@@ -38,6 +38,7 @@
           <li class="nav-item"><a class="nav-link" href="#contatos">Contatos</a></li>
         </ul>
       </div>
+      <button href="login.html" class="btn btn-outline-light mb-3 px-4 my-3 mx-3">Login</button>
     </div>
   </nav>
 
@@ -151,7 +152,7 @@
     <div class="cards row row-cols-1 row-cols-md-3 g-4 mx-3">
       <div class="col">
         <div class="card h-100">
-          <img src="assets/img/servicos/caderno.png" class="card-img-top cartoes" alt="...">
+          <img src="assets/img/servicos/consultoria.jpg" class="card-img-top cartoes" alt="...">
           <div class="card-body">
             <h5 class="card-title text-center">Card title</h5>
             <p class="card-text text-center">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -160,7 +161,7 @@
       </div>
       <div class="col">
         <div class="card h-100">
-          <img src="assets/img/servicos/caderno.png" class="card-img-top cartoes" alt="...">
+          <img src="assets/img/servicos/assessoria.jpg" class="card-img-top cartoes" alt="...">
           <div class="card-body">
             <h5 class="card-title text-center">Card title</h5>
             <p class="card-text text-center">This is a short card.</p>
@@ -169,7 +170,7 @@
       </div>
       <div class="col">
         <div class="card h-100">
-          <img src="assets/img/servicos/caderno.png" class="card-img-top cartoes" alt="...">
+          <img src="assets/img/servicos/mentoria.jpg" class="card-img-top cartoes" alt="...">
           <div class="card-body">
             <h5 class="card-title text-center">Card title</h5>
             <p class="card-text text-center">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
@@ -266,7 +267,113 @@
     <br>
   </section>
 
+
+  <!-- sessao contatos -->
+
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4 text-center">Fale com a gente</h2>
+      <form class="azul text-white">
+        <div class="row mb-3">
+          <div class="col-md-6 mx-3 my-3">
+            <label for="empresa" class="form-label">Nome da empresa</label>
+            <input type="text" class="form-control" id="empresa" required>
+          </div>
+          <div class="col-md-6 mx-3">
+            <label for="segmento" class="form-label">Qual o segmento da empresa?</label>
+            <input type="text" class="form-control" id="segmento" required>
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <div class="col-md-6 mx-3">
+            <label for="responsavel" class="form-label">Nome do responsável</label>
+            <input type="text" class="form-control" id="responsavel" required>
+          </div>
+          <div class="col-md-6 mx-3">
+            <label for="telefone" class="form-label">Telefone do responsável</label>
+            <input type="tel" class="form-control" id="telefone" required>
+          </div>
+        </div>
+
+        <div class="mb-3 mx-3">
+          <label for="email" class="form-label">Email corporativo</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+
+        <div class="mb-3 mx-3">
+          <label for="desafio" class="form-label">Qual seu principal desafio?</label>
+          <textarea class="form-control" id="desafio" rows="4" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary mx-3 my-3">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+
+  <!-- footer -->
   
+  <footer class="azul text-white pt-5 pb-3">
+    <div class="container">
+      <div class="row text-center text-md-start">
+        
+        <!-- Logo -->
+        <div class="col-md-3 mb-4">
+          <img src="assets/img/logo.png" alt="Logo Licitratos" class="mb-3" style="max-width: 150px;">
+          <p class="small">LICITAÇÕES E CONTRATOS</p>
+        </div>
+
+        <!-- Páginas -->
+        <div class="col-md-3 mb-4">
+          <h6 class="fw-bold">Páginas</h6>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white text-decoration-none">Início</a></li>
+            <li><a href="#equipe" class="text-white text-decoration-none">Nossa Equipe</a></li>
+            <li><a href="#servicos" class="text-white text-decoration-none">Serviços</a></li>
+            <li><a href="#noticias" class="text-white text-decoration-none">Notícias</a></li>
+            <li><a href="#cases" class="text-white text-decoration-none">Cases de Sucesso</a></li>
+            <li><a href="#contato" class="text-white text-decoration-none">Contatos</a></li>
+          </ul>
+        </div>
+
+        <!-- Contato -->
+        <div class="col-md-3 mb-4">
+          <h6 class="fw-bold">Contatos</h6>
+          <p class="mb-1">(61) 99999-9999</p>
+          <p>licitratos@gmail.com</p>
+          <div class="d-flex gap-3 justify-content-center justify-content-md-start">
+            <a href="#"><i class="bi bi-instagram fs-4 text-white"></i></a>
+            <a href="#"><i class="bi bi-linkedin fs-4 text-white"></i></a>
+          </div>
+        </div>
+
+        <!-- Endereço + botão -->
+        <div class="col-md-3 mb-4 d-flex flex-column align-items-center align-items-md-end">
+          <button href="login.html" class="btn btn-outline-light mb-3 px-4">Login</button>
+          <h6 class="fw-bold">Endereço</h6>
+          <p class="mb-0 text-center text-md-end">
+            IFB, Campus Brasília<br>
+            SGAN Quadra 610 Módulos D, E, F, G<br>
+            Asa Norte, Brasília – DF<br>
+            CEP: 70830-450
+          </p>
+        </div>
+
+      </div>
+
+      <hr class="border-secondary">
+
+      <!-- Rodapé final -->
+      <div class="text-center small">
+        <p class="mb-1">Política de Privacidade</p>
+        <p class="mb-0">&copy; 2025 LICITRATOS | Todos os direitos reservados</p>
+        <p class="mb-0">Desenvolvido por Grupo 5 do Projeto Integrador II</p>
+      </div>
+    </div>
+  </footer>
+
+
 
   <!-- scripts do bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -276,4 +383,5 @@
 </body>
 </html>
 
+<!--calebexxx was here-->
 <!--CRF-->

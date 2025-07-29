@@ -47,3 +47,7 @@ header {
 header{
     background-color: #051B2B;
 }
+
+form {
+    border-radius: 15px;
+}
