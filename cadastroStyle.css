@@ -104,4 +104,16 @@ input[type="text"] {
     margin-left: 110px;
 }
 
+.links {
+    color: #D9D9D9;
+}
 
+.foot {
+    position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 29%;
+  color: rgba(255, 255, 255, 0.322);
+  text-align: center;
+  padding: 10px;
+}
