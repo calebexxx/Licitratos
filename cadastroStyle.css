@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand";
+    font-weight: 500;
+}
+
+.container {
+    display: flex;
+    color: black;
+}
+
+.title {
+    position: absolute;
+    top: 130px;
+    color: #FFFFFF;
+    font-size: 60px;
+}
+
+.lat-bar {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: #051B2B;
+    height: 100vh;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+    color: #FFFFFF;
+
+}
+
+.btn-back {
+    width: 100px;
+    height: 30px;
+    margin: 8px 0 0 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #3064E5;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+input[type="text"] {
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    border-width: 0.2px;
+    margin-bottom: 40px;
+    padding: 2px;
+    color: black;
+}
+
+.labels {
+    font-size: larger;
+}
+
+.btn-submit {
+    width: 150px;
+    height: 40px;
+    margin: 8px 0 0 8px;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #3064E5;
+    font-size: x-large;
+}
+
+.logo-space {
+    width: 70%;
+    color: black;
+    font-size: xx-large;
+    background-color: #D9D9D9;
+    
+}
+
+.logo {
+    border-radius: 900px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+.texts {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+.texts h1 {
+    margin-left: 110px;
+}
+
+
